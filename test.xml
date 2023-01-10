@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2020-11-22T14:37:38+03:00">
+    <shop>
+        <name>Abi Rent</name>
+        <company>Abi Rent Inc.</company>
+        <url>https://abi-rent.com</url>
+        <platform>uCoz</platform>
+        <categories>
+            <category id="1">Аланья</category>
+            <category id="10" parentId="1">Анталья</category>
+            <category id="101" parentId="10">Кемер</category>
+        </categories>
+        <delivery-options>
+            <option cost="1" days="1"/>
+        </delivery-options>
+        <pickup-options>
+            <option cost="1" days="1"/>
+        </pickup-options>
+        <offers>
+            <offer id="9012">
+                <name>Fiat Egea</name>
+                <vendor>Fiat</vendor>
+                <vendorCode>f1033</vendorCode>
+                <url>https://abi-rent.com/cars/alanya/10/ru</url>
+                <price>3300</price>
+                <oldprice>4200</oldprice>
+                <enable_auto_discounts>true</enable_auto_discounts>
+                <currencyId>RUR</currencyId>
+                <categoryId>1</categoryId>
+                <picture>https://abi-rent.com/images/97ab7a6d-b773-47cc-85a0-bec02f7aece0.webp</picture>
+                <description>
+                    <![CDATA[          
+                        <p>Ухоженная машина 2017 года с кондиционером</p>
+                    ]]>
+                </description>                
+                <sales_notes>Необходима предоплата в размере 300р.</sales_notes>
+                <sales_notes>Бесплатная доставка</sales_notes>
+                <manufacturer_warranty>true</manufacturer_warranty>
+                <barcode>4601546021298</barcode>
+                <param name="Цвет">белый</param>
+                <condition type="preowned">
+                    <quality>excellent</quality>
+                </condition>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
